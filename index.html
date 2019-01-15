@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <audio src="sounds/Blastwave_FX_CashRegister_S08IN.92.mp3" id="ker-ching"></audio>
+    <audio src="sounds/ticker.mp3" id="ticker"></audio>
+    <header>
+        <img class="non-mobile-banner1" src="./images/avengers-logo-silver.jpg" />
+        <img class="non-mobile-banner2" src="./images/avengers-logo-silver.jpg" />
+        <img class="icons" src="./images/AvengersCharIcons.jpg" />
+        <section class="title-container">
+
+            <img class="lawsuit-bait" src="./images/title.png" />
+
+            <p class="a-budget"> A Budget</p>
+        </section>
+        <img class="non-mobile-banner3" src="./images/avengers-logo-silver.jpg" />
+        <img class="non-mobile-banner4" src="./images/avengers-logo-silver.jpg" />
+    </header>
+    <img src="images/kisspng-speech-balloon-callout-clip-art-speech-bubble-png-transparent-background-5ab0f07b0258a3.8209761015215453390096.png" class="brokenBudget">
+    <section class="main-body">
+        <section class="label-box">
+            Weekly Budget
+        </section>
+        <section class="remaining-budget">
+            <section class="digit">
+                <p class="num">$</p>
+            </section>
+            <section class="digit">
+                <p id="millions" class="num">1</p>
+            </section>
+            <section class="digit">
+                <p id="hThousands" class="num">0</p>
+            </section>
+            <section class="digit">
+                <p id="tThousands" class="num">0</p>
+            </section>
+            <section class="digit">
+                <p id="thousands" class="num">0</p>
+            </section>
+            <section class="digit">
+                <p id="hundreds" class="num">0</p>
+            </section>
+            <section class="digit">
+                <p id="tens" class="num">0</p>
+            </section>
+            <section class="digit">
+                <p id="ones" class="num">0</p>
+            </section>
+
+        </section>
+
+        <section class="sidebar">
+            <section class="category weapons">
+                <p class="box-label">Weapons</p>
+            </section>
+            <section class="category food">
+                <p class="box-label">Food</p>
+            </section>
+            <section class="category attire">
+                <p class="box-label">Attire</p>
+            </section>
+            <section class="category bills">
+                <p class="box-label">Bills</p>
+            </section>
+        </section>
+
+        <section class="pie-chart">
+            <div id="container" style="width: 100%; height: 100%"></div>
+        </section>
+
+        <section class="purchase-btn">
+            <button class="purchase" type="button"><img class="SmollIronMan" src="./images/IronManIcon.png" /> Purchase
+                Item <img class="SmollCapt" src="./images/CaptAIcon.png" /></button>
+        </section>
+ 
+        <form class="addItem">
+            <input class="priceInput" type="text" placeholder="$ Amount">
+            <input class="itemName" type="text" placeholder="Item Name">
+
+            <select class="catSelector">
+                <option value="">--Category--</option>
+                <option value="Weapons" class="choice">Weapons</option>
+                <option value="Food" class="choice">Food</option>
+                <option value="Attire" class="choice">Attire</option>
+                <option value="Bills" class="choice">Bills</option>
+            </select>
+            <button class="category-btn" type="button">Add Item</button>
+        </form>
+
+        <section class="legend"></section>
+
+    </section>
+    <script src="https://cdn.anychart.com/js/8.0.1/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/js/8.0.1/anychart-pie.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="countUp.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
