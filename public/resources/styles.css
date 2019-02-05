@@ -206,7 +206,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(the-avengers.png);
+    background: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(./images/the-avengers.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5px;
@@ -367,7 +367,7 @@ body {
     .food {
         outline: 2px solid black;
         border: 6px solid white;
-        background-image: url("avengers-cereals.jpg");
+        background-image: url("./images/avengers-cereals.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
@@ -375,7 +375,7 @@ body {
     .weapons {
         outline: 2px solid black;
         border: 6px solid white;
-        background-image: url("avengers-weapon.jpg");
+        background-image: url("./images/avengers-weapon.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
 
@@ -384,14 +384,14 @@ body {
     .attire {
         outline: 2px solid black;
         border: 6px solid white;
-        background-image: url("avengers-dressup.jpg");
+        background-image: url("./images/avengers-dressup.jpg");
         background-size: 100% 100%;
     }
 
     .bills {
         outline: 2px solid black;
         border: 6px solid white;
-        background-image: url("nyc.jpg");
+        background-image: url("./images/nyc.jpg");
         background-size: 100% 100%;
     }
 
