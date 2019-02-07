@@ -1,0 +1,23 @@
+{
+  "name": "midterm-project",
+  "version": "1.0.0",
+  "description": "a budgeting app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonahNye/Avengers-Assemble-a-Budget.git"
+  },
+  "author": "Jonah, Hart, Karissa, Aaron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonahNye/Avengers-Assemble-a-Budget/issues"
+  },
+  "homepage": "https://github.com/JonahNye/Avengers-Assemble-a-Budget#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
